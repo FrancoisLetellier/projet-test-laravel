@@ -2,7 +2,7 @@
 @extends('layout.navbar')
 @section('content')
     <div class="game-index">
-        <h2 class="text-center">Users</h2>
+        <h1 class="text-center">Users</h1>
         <table class="table table-hover">
             <thead>
             <tr>
@@ -62,23 +62,4 @@
         </div>
         <a><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @endsection

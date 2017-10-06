@@ -4,7 +4,7 @@
     <div class="platform-category">
         <div class="row">
             <div class="col-sm-6 ml-sm-auto">
-                <h2 class="text-center">Platforms</h2>
+                <h1 class="text-center">Platforms</h1>
                 <table class="table table-hover">
                     <thead>
                     <tr>

@@ -6,7 +6,7 @@
     <div class="game-file">
         <div class="d-flex justify-content-center">
             <form class="col-sm-3">
-                <h2 class="text-center">Game File</h2>
+                <h1 class="text-center">Game File</h1>
                 <div class="form-group">
                     <label for="FormControlFile1">Image</label>
                     <input type="file" class="form-control-file" id="FormControlFile1">
@@ -18,11 +18,11 @@
                 <div class="form-group">
                     <label for="FormControlSelect1">Year</label>
                     <select class="form-control" id="FormControlSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                        <option>1980</option>
+                        <option>1981</option>
+                        <option>1982</option>
+                        <option>1983</option>
+                        <option>1984</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -31,7 +31,6 @@
                 </div>
                 <div class="form-group">
                     <label for="game-summary">Summary</label>
-
                     <div>
                         <textarea id="game-summary" rows="10" cols="37">Enter Summary</textarea>
                     </div>
@@ -62,10 +61,10 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <a><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
             </div>
             <div class="col-sm-12">
-                <a><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
+                <a href="{!! url('/') !!}"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

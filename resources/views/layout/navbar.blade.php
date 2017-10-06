@@ -24,5 +24,27 @@
                 <a class="nav-link " href="#">Users</a>
             </li>
         </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="loginDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="loginDropdownMenuLink">
+                    <p class="dropdown-item text-center">Username</p>
+                        <div class="form-group form-signin">
+                            <input type="text" class="form-control" id="username" placeholder="Username">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <div class="text-center mt-3">
+                                <button type="submit" class="btn btn-outline-success my-2 my-sm-0">Sign in</button>
+                            </div>
+                        </div>
+                    <p class="dropdown-item text-center">Still not signed up?</p>
+                        <div class="text-center mb-1">
+                            <button type="button" class="btn btn-outline-success my-2 my-sm-0">Join us!</button>
+                        </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </nav>
+-

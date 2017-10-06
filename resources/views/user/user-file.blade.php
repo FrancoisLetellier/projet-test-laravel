@@ -6,7 +6,7 @@
     <div class="game-file">
         <div class="d-flex justify-content-center">
             <form class="col-sm-3">
-                <h2 class="text-center">User File</h2>
+                <h1 class="text-center">User File</h1>
                 <div class="form-group">
                     <label for="name">Firstname</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter name">
@@ -25,10 +25,10 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <a><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i></a>
             </div>
             <div class="col-sm-12">
-                <a><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
+                <a href="{!! url('/') !!}"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

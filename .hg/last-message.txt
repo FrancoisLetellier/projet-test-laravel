@@ -1,1 +1,1 @@
-add 3 views for the project
+finish view

@@ -11,4 +11,6 @@ default = ssh://hg@bitbucket.org/teamdescode/test-laravel
 
 [ui]
 # name and email (local to this repository, optional), e.g.
-# username = Jane Doe <jdoe@example.com>
+username = Topikana <f.letellier0@gmail.com>
+ssh = ssh -C
+

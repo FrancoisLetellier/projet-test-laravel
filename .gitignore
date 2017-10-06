@@ -3,10 +3,16 @@
 /public/storage
 /storage/*.key
 /vendor
-/.idea
+/.idea/*
+/.idea/dataSources
+.idea/workspace.xml
 /.vagrant
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
+/.hg/hgrc
+/storage/debugbar
+/storage/framework
+.hg/
